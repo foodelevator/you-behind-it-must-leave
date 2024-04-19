@@ -23,6 +23,8 @@
           alsa-lib
           udev
           pkg-config
+          mold
+          clang
         ];
         nativeBuildInputs = with pkgs; [
           (rust-bin.selectLatestNightlyWith
